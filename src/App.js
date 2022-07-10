@@ -57,9 +57,6 @@ function App() {
             totalTime={element.recipe.totalTime}
             ingredientLines={element.recipe.ingredientLines}
             url={element.recipe.url}
-            fat={element.recipe.totalNutrients.FAT}
-            carbs={element.recipe.totalNutrients.CHOCDF}
-            protein={element.recipe.totalNutrients.PROCNT}
             mealType={element.recipe.mealType}
            />
         ))}
